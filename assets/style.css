@@ -1,16 +1,20 @@
 body {
-    margin: 0px;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;   
+    color: #777; 
+    background-image: url(../images/brushed_alu_dark_@2X.png);  
 }
 /* start of header editing */
 header {
+    width: 100%;
+    top: 0;
+    position: fixed;
     border-bottom: 2px solid #ccc;
     background-color: #fff;
 }
 
 .name {
-    margin-left: 15%;
+    margin-left: 285px;
     margin-bottom: 0;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,7 +26,7 @@ header {
     height: 75px;
 }
 
-a {
+.headerlink {
     float: right;
     margin-right: 3%;
     margin-top: 20px;
@@ -37,8 +41,9 @@ a {
     width: 960px;
     height: 490px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 150px;
     border: 2px solid black;
+    background-color: #fff;
 }
 
 .h1body {
@@ -72,10 +77,10 @@ a {
 
 /* footer editing starts here */
 footer {
-    clear: both;
     background-color: #666;
     border-top: 8px solid #4aaaa5;
     width: 100%;
+    height: 40px;
     position: fixed;
     bottom: 0;
     text-align: center;
@@ -83,14 +88,69 @@ footer {
 /* footer edits end here */
 
 /* portfolio editing starts here */
+/* use class="project project1" in future to help shorten code" */
 .container {
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
-.project {
-    width: 100px;
-    height: 100px;
-    margin: 10px 10px 10px 10px;
+.project1 {
+    width: 150px;
+    height: 175px;
+    margin: 50px 20px 10px 10px;
+    background-image: url(../images/beer.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    text-align: center;
+    color: white;
+}
 
+.project2 {
+    width: 150px;
+    height: 175px;
+    margin: 50px 20px 10px 10px;
+    background-image: url(../images/germanmeal.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.project3 {
+    width: 150px;
+    height: 175px;
+    margin: 50px 20px 10px 10px;
+    background-image: url(../images/lyric.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.project4 {
+    width: 150px;
+    height: 175px;
+    margin: 50px 20px 10px 10px;
+    background-image: url(../images/celtictree.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.project5 {
+    width: 150px;
+    height: 175px;
+    margin: 50px 20px 10px 10px;
+    background-image: url(../images/sheriff.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    text-align: center;
+    color: white;
 }
