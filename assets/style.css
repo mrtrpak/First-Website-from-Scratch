@@ -1,5 +1,12 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;   
+}
+/* start of header editing */
 header {
-    border-bottom: 2px double black;
+    border-bottom: 2px solid #ccc;
+    background-color: #fff;
 }
 
 .name {
@@ -7,6 +14,7 @@ header {
     margin-bottom: 0;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     padding: 3px;
     background-color: teal;
     color: white;
@@ -16,4 +24,73 @@ header {
 
 a {
     float: right;
+    margin-right: 3%;
+    margin-top: 20px;
+    color: grey;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* end of header editing */
+
+/* start of editing info sections */
+.infosize {
+    width: 960px;
+    height: 490px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.h1body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+/* end of info sections */
+
+/* index.html CSS editing */
+.profilepic {
+    width: 175px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.aboutpara {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+/* end of index.html  */
+
+/* footer editing starts here */
+footer {
+    clear: both;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+/* footer edits end here */
+
+/* portfolio editing starts here */
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+
 }
