@@ -4,7 +4,7 @@ body {
     color: #777; 
     background-image: url(../images/brushed_alu_dark_@2X.png);  
 }
-/* start of header editing */
+/* start of header editing (all htmls) */
 header {
     width: 100%;
     top: 0;
@@ -44,7 +44,7 @@ header {
 }
 /* end of header editing */
 
-/* start of editing info sections */
+/* start of editing info sections (all htmls) */
 .infosize {
     width: 960px;
     height: 490px;
@@ -63,7 +63,19 @@ header {
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
-/* end of info sections */
+/* end of info sections edits */
+
+/* footer editing starts here (all htmls) */
+footer {
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+/* footer edits end here */
 
 /* index.html CSS editing */
 .profilepic {
@@ -81,22 +93,9 @@ header {
     margin-bottom: 5px;
     font-size: 24px;
 }
-/* end of index.html  */
-
-/* footer editing starts here */
-footer {
-    background-color: #666;
-    border-top: 8px solid #4aaaa5;
-    width: 100%;
-    height: 40px;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-}
-/* footer edits end here */
+/* end of index.html */
 
 /* portfolio editing starts here */
-/* use class="project project1" in future to help shorten code" */
 .container {
     flex-wrap: wrap;
     justify-content: center;
@@ -121,6 +120,13 @@ footer {
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+h3 {
+    background-color: teal;
+    padding: 5px;
+    margin-top: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .project1 {
