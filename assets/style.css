@@ -27,13 +27,13 @@ header {
 }
 
 .headerAbout {
-    margin-right: 275px;
+    margin-right: 280px;
 }
 
 .headerlink {
     float: right;
     margin-top: 25px;
-    padding: 5px;
+    padding: 10px;
     color: grey;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -103,64 +103,44 @@ footer {
     position: relative;
 }
 
-.project1 {
+.project {
     width: 150px;
     height: 175px;
-    margin: 50px 20px 10px 10px;
-    background-image: url(../images/beer.jpg);
+    margin: 50px 10px 10px 28px;
     background-size: cover;
     background-position: center;
-    float: left;
     text-align: center;
     color: white;
+    transition: all 1s;
+    float: left;
+}
+
+.project:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.project1 {
+    background-image: url(../images/beer.jpg);
 }
 
 .project2 {
-    width: 150px;
-    height: 175px;
-    margin: 50px 20px 10px 10px;
     background-image: url(../images/germanmeal.jpg);
-    background-size: cover;
-    background-position: center;
-    float: left;
-    text-align: center;
-    color: white;
 }
 
 .project3 {
-    width: 150px;
-    height: 175px;
-    margin: 50px 20px 10px 10px;
     background-image: url(../images/lyric.jpg);
-    background-size: cover;
-    background-position: center;
-    float: left;
-    text-align: center;
-    color: white;
 }
 
 .project4 {
-    width: 150px;
-    height: 175px;
-    margin: 50px 20px 10px 10px;
     background-image: url(../images/celtictree.jpg);
-    background-size: cover;
-    background-position: center;
-    float: left;
-    text-align: center;
-    color: white;
 }
 
 .project5 {
-    width: 150px;
-    height: 175px;
-    margin: 50px 20px 10px 10px;
     background-image: url(../images/sheriff.jpg);
-    background-size: cover;
-    background-position: center;
-    float: left;
-    text-align: center;
-    color: white;
 }
 /* portfolio editing ends here */
 
