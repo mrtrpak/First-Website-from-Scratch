@@ -26,10 +26,14 @@ header {
     height: 75px;
 }
 
+.headerAbout {
+    margin-right: 275px;
+}
+
 .headerlink {
     float: right;
-    margin-right: 3%;
-    margin-top: 20px;
+    margin-top: 25px;
+    padding: 5px;
     color: grey;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -192,3 +196,4 @@ form {
 ::placeholder {
     font-family: Arial, Helvetica, sans-serif;
 }
+/* end of contact editing */
