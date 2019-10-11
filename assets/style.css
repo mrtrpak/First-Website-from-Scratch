@@ -34,6 +34,10 @@ header {
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.headerlink:hover {
+    color: teal;
+}
 /* end of header editing */
 
 /* start of editing info sections */
