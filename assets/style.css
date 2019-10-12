@@ -16,14 +16,17 @@ header {
 .name {
     margin-left: 285px;
     margin-bottom: 0;
+    margin-top: 30px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
     color: white;
     padding: 3px;
     background-color: teal;
     color: white;
     width: 200px;
-    height: 75px;
+    height: 65px;
 }
 
 .headerAbout {
@@ -50,15 +53,16 @@ header {
     height: 490px;
     margin: auto;
     margin-top: 150px;
-    border: 2px solid black;
+    border: 2px solid teal;
     background-color: #fff;
 }
 
 .h1body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
     color: teal;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
     width: auto;
     padding: 10px;
     border-bottom: 1px solid #ccc;
@@ -75,6 +79,12 @@ footer {
     bottom: 0;
     text-align: center;
 }
+
+h6 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* footer edits end here */
 
 /* index.html CSS editing */
@@ -83,7 +93,7 @@ footer {
     height: 250px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     float: left;
 }
 
@@ -92,6 +102,10 @@ footer {
     margin-left: 20px;
     margin-bottom: 5px;
     font-size: 24px;
+}
+
+p {
+    padding: 10px;
 }
 /* end of index.html */
 
