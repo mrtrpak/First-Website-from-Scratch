@@ -48,8 +48,8 @@ header {
 }
 /* end of header editing */
 
-/* start of editing info sections (all htmls) */
-.infosize {
+/* start of editing section (all htmls) */
+.container {
     width: 960px;
     height: 490px;
     margin: auto;
@@ -58,7 +58,7 @@ header {
     background-color: #fff;
 }
 
-.h1body {
+.sectionHeader {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: bold;
@@ -68,7 +68,7 @@ header {
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
-/* end of info sections edits */
+/* end of sections edits */
 
 /* footer editing starts here (all htmls) */
 footer {
@@ -110,7 +110,7 @@ p {
 }
 /* end of index.html */
 
-/* portfolio editing starts here */
+/* portfolio.html editing starts here */
 .container {
     flex-wrap: wrap;
     justify-content: center;
@@ -165,7 +165,7 @@ h3 {
 }
 /* portfolio editing ends here */
 
-/* contact editing starts here */
+/* contact.html editing starts here */
 form {
     margin-left: 20px;
     margin-right: 20px;
