@@ -3,7 +3,9 @@
 ## Table of Contents
 
 - [Description](#Description)
-- [Link](#Link)
+- [Portfolio Pages](#New-Portfolio-Pages)
+  - [Version 2](#Version-2)
+  - [Version 3](#Version-3)
 - [Picture](#Website-Picture)
 
 ## Description
@@ -16,10 +18,15 @@ There are more intricate things that I have added in to help standout from the r
 
 Things that I want to add into this in the future is I want to hover a google maps image of the location I was born in. I want to make a more responsive header and possibly do a navbar with it instead. I want to add a carousel of images on the homepage. I also want to look into making my own favicon logo.
 
-## Link
+## New Portfolio Pages
 
-http://mrtrpak.github.io - automatic!
-[Portfolio Homepage](http://mrtrpak.github.io)
+### Version 2
+
+- [Portfolio Page](http://mrtrpak.github.io)
+
+### Version 3
+
+- [Portfolio Page](http://mrtrpak.github.io/my-page)
 
 ## Website Picture
 
